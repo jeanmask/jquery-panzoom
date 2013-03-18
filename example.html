@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>jQuery - panZoom plugin</title>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="jquery.panzoom.js"></script>
+
+		<script>
+			$(document).ready(function () {
+				$('.panzoom').panzoom({width: 400, height: 400});
+			});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<h1>jQuery - panZoom plugin</h1>
+		</header>
+
+		<section id="about">
+			<h1>About</h1>
+			<p>Plugin for zoom images dinamically, on mouse over/out, using <a href="http://www.jquery.com/">jQuery</a>.</p>
+		</section>
+
+		<section id="compatibility">
+			<h1>Compatibility</h1>
+
+			<p>Compatible in all modern browsers and jQuery 1.4 or higher.</p>
+		</section>
+
+		<section id="how">
+			<h1>How to use</h1>
+
+			<p>Code:</p>
+			<code lang="javascript">
+				$('img.panzoom').panZoom();
+			</code>
+		</section>
+
+		<section id="example">
+			<h1>Example</h1>
+
+			<p>Demo</p>
+			<img src="http://lorempixel.com/400/400/" width="400" height="400" alt="test" class="panzoom" />
+		</section>
+
+
+
+	</body>
+</html>
